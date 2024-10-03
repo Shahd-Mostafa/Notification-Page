@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+:root {
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+  --White: hsl(0, 0%, 100%);
+  --Verylightgrayisblue: hsl(210, 60%, 98%);
+  --Lightgrayishblue1: hsl(211, 68%, 94%);
+  --Lightgrayishblue2: hsl(205, 33%, 90%);
+  --Grayishblue: hsl(219, 14%, 63%);
+  --Darkgrayishblue: hsl(219, 12%, 42%);
+  --Verydarkblue: hsl(224, 21%, 14%);
+  --font: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  font-family: var(--font) !important;
+}

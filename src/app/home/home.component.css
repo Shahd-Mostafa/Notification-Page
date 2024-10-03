@@ -1,0 +1,58 @@
+.bg {
+  background-color: var(--Verylightgrayisblue);
+}
+.row {
+  background-color: var(--White);
+}
+.col-md-12 {
+  cursor: pointer;
+}
+img {
+  width: 50px;
+  object-fit: cover;
+}
+.notification {
+  background-color: var(--Verylightgrayisblue);
+}
+.text p .span1,
+.text-box p {
+  color: var(--Darkgrayishblue);
+  font-weight: 500;
+}
+.text p .span2 {
+  color: var(--Darkgrayishblue);
+}
+.text p .span2:hover,
+strong:hover {
+  color: var(--Blue);
+}
+.span3 {
+  color: var(--Grayishblue);
+}
+strong {
+  font-weight: 800;
+}
+.badge {
+  background-color: var(--Blue);
+}
+.mark1 {
+  /* color: var(--Darkgrayishblue); */
+  font-weight: 500;
+  cursor: pointer;
+}
+.span4 {
+  color: var(--Blue);
+  font-weight: 800;
+}
+.text-box:hover {
+  background-color: var(--Lightgrayishblue1);
+}
+.mark1:hover {
+  color: var(--Blue);
+}
+
+@media screen and (min-width: 992px) {
+  .row {
+    width: 56%;
+  }
+}
